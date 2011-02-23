@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C62E6D1315BA2100E10F15 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C62E6C1315BA2100E10F15 /* CoreData.framework */; };
+		24C62E6F1315BA2100E10F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C62E6E1315BA2100E10F15 /* Foundation.framework */; };
+		24C62E721315BA2100E10F15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C62E711315BA2100E10F15 /* main.m */; };
+		24C62E931315BA5400E10F15 /* SampleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24C62E901315BA5400E10F15 /* SampleCoreData.xcdatamodeld */; };
+		24C62E961315BB5700E10F15 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C62E951315BB5700E10F15 /* Person.m */; };
+		24C62E991315BB5700E10F15 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C62E981315BB5700E10F15 /* Address.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24C62E661315BA2100E10F15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24C62E681315BA2100E10F15 /* SampleCoreData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleCoreData; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C62E6C1315BA2100E10F15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24C62E6E1315BA2100E10F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24C62E711315BA2100E10F15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C62E741315BA2100E10F15 /* SampleCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		24C62E781315BA2100E10F15 /* SampleCoreData.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SampleCoreData.1; sourceTree = "<group>"; };
+		24C62E911315BA5400E10F15 /* SampleCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleCoreData.xcdatamodel; sourceTree = "<group>"; };
+		24C62E941315BB5700E10F15 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		24C62E951315BB5700E10F15 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		24C62E971315BB5700E10F15 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		24C62E981315BB5700E10F15 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C62E651315BA2100E10F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C62E6D1315BA2100E10F15 /* CoreData.framework in Frameworks */,
+				24C62E6F1315BA2100E10F15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C62E5D1315BA2100E10F15 = {
+			isa = PBXGroup;
+			children = (
+				24C62E871315BA5400E10F15 /* SampleCoreData */,
+				24C62E701315BA2100E10F15 /* Classes */,
+				24C62E6B1315BA2100E10F15 /* Frameworks */,
+				24C62E691315BA2100E10F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C62E691315BA2100E10F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C62E681315BA2100E10F15 /* SampleCoreData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C62E6B1315BA2100E10F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C62E6C1315BA2100E10F15 /* CoreData.framework */,
+				24C62E6E1315BA2100E10F15 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C62E701315BA2100E10F15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24C62E711315BA2100E10F15 /* main.m */,
+				24C62E781315BA2100E10F15 /* SampleCoreData.1 */,
+				24C62E731315BA2100E10F15 /* Supporting Files */,
+			);
+			name = Classes;
+			path = SampleCoreData;
+			sourceTree = "<group>";
+		};
+		24C62E731315BA2100E10F15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C62E741315BA2100E10F15 /* SampleCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24C62E871315BA5400E10F15 /* SampleCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				24C62E901315BA5400E10F15 /* SampleCoreData.xcdatamodeld */,
+				24C62E971315BB5700E10F15 /* Address.h */,
+				24C62E981315BB5700E10F15 /* Address.m */,
+				24C62E941315BB5700E10F15 /* Person.h */,
+				24C62E951315BB5700E10F15 /* Person.m */,
+			);
+			name = SampleCoreData;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C62E671315BA2100E10F15 /* SampleCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C62E7B1315BA2100E10F15 /* Build configuration list for PBXNativeTarget "SampleCoreData" */;
+			buildPhases = (
+				24C62E641315BA2100E10F15 /* Sources */,
+				24C62E651315BA2100E10F15 /* Frameworks */,
+				24C62E661315BA2100E10F15 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleCoreData;
+			productName = SampleCoreData;
+			productReference = 24C62E681315BA2100E10F15 /* SampleCoreData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C62E5F1315BA2100E10F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 24C62E621315BA2100E10F15 /* Build configuration list for PBXProject "SampleCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24C62E5D1315BA2100E10F15;
+			productRefGroup = 24C62E691315BA2100E10F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C62E671315BA2100E10F15 /* SampleCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C62E641315BA2100E10F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C62E721315BA2100E10F15 /* main.m in Sources */,
+				24C62E931315BA5400E10F15 /* SampleCoreData.xcdatamodeld in Sources */,
+				24C62E961315BB5700E10F15 /* Person.m in Sources */,
+				24C62E991315BB5700E10F15 /* Address.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24C62E791315BA2100E10F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24C62E7A1315BA2100E10F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24C62E7C1315BA2100E10F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleCoreData/SampleCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24C62E7D1315BA2100E10F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleCoreData/SampleCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C62E621315BA2100E10F15 /* Build configuration list for PBXProject "SampleCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C62E791315BA2100E10F15 /* Debug */,
+				24C62E7A1315BA2100E10F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C62E7B1315BA2100E10F15 /* Build configuration list for PBXNativeTarget "SampleCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C62E7C1315BA2100E10F15 /* Debug */,
+				24C62E7D1315BA2100E10F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24C62E901315BA5400E10F15 /* SampleCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24C62E911315BA5400E10F15 /* SampleCoreData.xcdatamodel */,
+			);
+			currentVersion = 24C62E911315BA5400E10F15 /* SampleCoreData.xcdatamodel */;
+			path = SampleCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24C62E5F1315BA2100E10F15 /* Project object */;
+}
