@@ -46,5 +46,8 @@
     [self didChangeValueForKey:@"siblings" withSetMutation:NSKeyValueMinusSetMutation usingObjects:value];
 }
 
+- (NSString *)description {
+	return [NSString stringWithFormat:@"%@ %@", self.firstName, self.surname];
+}
 
 @end
