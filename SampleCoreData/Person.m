@@ -23,7 +23,6 @@
     [self willChangeValueForKey:@"siblings" withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
     [[self primitiveValueForKey:@"siblings"] addObject:value];
     [self didChangeValueForKey:@"siblings" withSetMutation:NSKeyValueUnionSetMutation usingObjects:changedObjects];
-    [changedObjects release];
 }
 
 - (void)removeSiblingsObject:(Person *)value {
@@ -31,7 +30,6 @@
     [self willChangeValueForKey:@"siblings" withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
     [[self primitiveValueForKey:@"siblings"] removeObject:value];
     [self didChangeValueForKey:@"siblings" withSetMutation:NSKeyValueMinusSetMutation usingObjects:changedObjects];
-    [changedObjects release];
 }
 
 - (void)addSiblings:(NSSet *)value {    
