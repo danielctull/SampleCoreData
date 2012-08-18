@@ -38,4 +38,12 @@
 	return NSSQLiteStoreType;
 }
 
++ (NSString *)modelConfiguration {
+	return nil;
+}
+
++ (NSDictionary *)storeOptions {
+	return @{NSReadOnlyPersistentStoreOption : @(YES)};
+}
+
 @end

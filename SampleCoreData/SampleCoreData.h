@@ -13,8 +13,11 @@
 @interface SampleCoreData : NSObject
 
 + (NSBundle *)bundle;
-+ (NSURL *)modelURL;
+
 + (NSURL *)storeURL;
 + (NSString *)storeType;
++ (NSDictionary *)storeOptions;
++ (NSString *)modelConfiguration;
++ (NSURL *)modelURL;
 
 @end
